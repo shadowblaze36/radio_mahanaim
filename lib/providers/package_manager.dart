@@ -12,7 +12,7 @@ class PageManager {
   );
   final buttonNotifier = ValueNotifier<ButtonState>(ButtonState.paused);
 
-  static const url = "http://144.217.229.39:7516/stream?type=http&nocache=316";
+  static const url = "https://app.sonicpanelradio.com/8052/stream";
 
   late AudioPlayer _audioPlayer;
   PageManager() {
@@ -32,7 +32,7 @@ class PageManager {
         album: "Radio Mahanaim",
         title: "Radio Mahanaim",
         artUri: Uri.parse(
-            'https://radiomahanaimhn.com/gallery_gen/35255306ae170cb9a88b8565cd919347_624x468.png'),
+            'https://www.radiomahanaimhn.com/gallery_gen/35255306ae170cb9a88b8565cd919347_624x468_fit.png'),
       ),
     );
     await _audioPlayer.setAudioSource(audiosource);

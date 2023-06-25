@@ -10,7 +10,8 @@ import '../providers/package_manager.dart';
 // const String baseUrl =
 //     'https://api.radioking.io/widget/radio/radio-mahanaim/track/current';
 
-const String nowPlayingUrl = 'http://144.217.229.39:7516/currentsong?sid=1';
+const String nowPlayingUrl =
+    'http://app.sonicpanelradio.com:8052/currentsong?sid=1';
 
 // Future<StreamInfo> fetchAlbum() async {
 //   final response = await http.get(Uri.parse(baseUrl));
