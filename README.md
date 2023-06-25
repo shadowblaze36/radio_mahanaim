@@ -1,15 +1,24 @@
 # radio_mahanaim
 
-A new Flutter project.
+A simple radio app made with flutter. Features a single channel with native audio. Audio can be controlled by OS native controls, such as notification, smartwatch and even airplay.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+You will need flutter basic dev tools to run and test this project.
 
-A few resources to get you started if this is your first Flutter project:
+To check if your dev enviroment is ready run:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter doctor
+```
+
+To run the project simply run:
+
+```bash
+flutter run
+```
+
+Make sure you have a device connected or a simmulator running
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
